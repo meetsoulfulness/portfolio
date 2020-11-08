@@ -6,6 +6,10 @@ h1,h3{
     color: #424242;
 }
 
+h1,h3,p{
+    font-family: 'Open Sans', sans-serif;
+}
+
 hr{
     border-color: grey;
     border-style: none;
