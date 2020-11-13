@@ -1,19 +1,123 @@
 body{
-    background-color: #e3e3e3
+    color: #3f3f3f;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
 }
 
-h1,h3{
+h1{
+    color: #202020;
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    line-height: 2;
+    margin-top: 0;
+}  
+
+h2{
     color: #424242;
+    font-family: 'Open-Sans',sans-serif;;
+    font-size: 2.25em;
+    font-weight: normal;
+    padding-bottom: 10px;
 }
 
-h1,h3,p{
-    font-family: 'Open Sans', sans-serif;
+h3{
+    font-family: 'Merriweather', serif;
+    color: #202020;
+}
+
+.top-container{
+    padding-top: 15px;
+}
+
+.middle-container{
+  margin: 100px 0;
+
+}
+.intro{
+    width: 50%;
+    margin: auto;
+}
+
+p{
+    line-height: 2;
+    font-family: 'Open-Sans',sans-serif;
 }
 
 hr{
-    border-color: grey;
-    border-style: none;
-    border-top-style:dotted;
-    border-width: 5px;
+    border: dotted #e3e3e3 6px;
+    border-bottom: none;
     width: 5%;
+    margin: 100px auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.mountain{
+    width: 100%;
+}
+.moon{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.Photography{
+    height: 50%;
+    width: 50%;
+    float: right;
+    margin-left: 30px;
+}
+.Web-development{
+    height: 50%;
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn {
+	background-color:#ef3a25;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Open-Sans',sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	padding:15px 20px;
+    text-decoration:none;
+}
+.btn:hover {
+        background-color:#ce0100;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container{
+    background-color: #202020;
+    padding: 50px 0 20px;
+}
+a{
+    color: #707070;
+    font-family:'Open-Sans',sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+   font-weight: bolder;
+}
+.copyright{
+    color:#ffffff ;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
