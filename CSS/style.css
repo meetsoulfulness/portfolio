@@ -1,3 +1,15 @@
+a{
+    color:#ffdf6c;
+    font-family:'Open-Sans',sans-serif ;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 0.8rem;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
 body{
     color: #3f3f3f;
     font-family: 'Merriweather', serif;
@@ -8,9 +20,9 @@ body{
 h1{
     color: #202020;
     font-family: 'Sacramento', cursive;
-    font-size: 6rem;
+    font-size: 4.5rem;
     line-height: 2;
-    margin-top: 0;
+    margin: 0 0 2.5% 0 ;
 }  
 
 h2{
@@ -26,9 +38,81 @@ h3{
     color: #202020;
 }
 
+hr{
+    border: dotted #e3e3e3 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+p{
+    line-height: 2;
+    font-family: 'Open-Sans',sans-serif;
+}
+
+/*----------------------------------------------HEADER, NAVIGATION BAR & LANDING PAGE CSS----------------------------------------------*/
+
 .top-container{
     padding-top: 15px;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+    
+li,button{
+    font-family:'Open-Sans',sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    cursor: pointer;
+    width: 50px;
+    padding: 5px 15px;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #707070;
+}
+
+.nav-links li a:hover{
+    color: black ;
+    font-weight: bold;
+}
+
+button{
+     padding: 10px 20px;
+     background-color: #ef3a25;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-weight: bold;
+}
+
+button:hover {
+    background-color:#ce0100;
+}
+
+.mountain{
+    width: 100%;
+}
+
+/*--------------------------------------------------ABOUT, SKILLS & CONTACT CSS-------------------------------------------------------*/
 
 .middle-container{
   margin: 100px 0;
@@ -39,27 +123,11 @@ h3{
     margin: auto;
 }
 
-p{
-    line-height: 2;
-    font-family: 'Open-Sans',sans-serif;
-}
-
-hr{
-    border: dotted #e3e3e3 6px;
-    border-bottom: none;
-    width: 5%;
-    margin: 100px auto;
-}
-
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
-}
-
-.mountain{
-    width: 100%;
 }
 
 .Photography{
@@ -68,6 +136,7 @@ hr{
     float: right;
     margin-left: 30px;
 }
+
 .Web-development{
     height: 50%;
     width: 50%;
@@ -79,6 +148,7 @@ hr{
     width: 40%;
     margin: 40px auto 60px;
 }
+
 .btn {
 	background-color:#ef3a25;
 	border-radius:6px;
@@ -91,29 +161,87 @@ hr{
 	padding:15px 20px;
     text-decoration:none;
 }
+
 .btn:hover {
         background-color:#ce0100;
 }
+
 .btn:active {
 	position:relative;
 	top:1px;
 }
+
+/*------------------------------------------------------SOCIAL MENU & FOOTER CSS-------------------------------------------------------*/
+
 .bottom-container{
     background-color: #202020;
-    padding: 50px 0 20px;
+    padding: 60px 0 20px;
 }
-a{
-    color: #707070;
-    font-family:'Open-Sans',sans-serif;
-    margin: 10px 20px;
-    text-decoration: none;
+
+.social-menu ul{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding-left: 35.5%;
+    transform: translate(-50%,-50%);
+    display: flex;
 }
-a:hover{
+
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fab{
+    font-size: 16px;
+    line-height: 32px;
+    transition: .5s;
     color: white;
-   font-weight: bolder;
 }
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color:#707070;
+    text-align: center;
+    transition: .5s; 
+}
+
+.social-menu ul li a:hover{
+    transform: translate(0,-5px);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: #4267B2;
+}
+
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #C13584;
+}
+
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #FF0000;
+}
+
+.social-menu ul li:nth-child(4) a:hover{
+    background-color: #1DA1F2;
+}
+
+.social-menu ul li:nth-child(5) a:hover{
+    background-color: #0e76a8;
+}
+
+.social-menu ul li:nth-child(6) a:hover{
+    background-color: #000;
+}
+
 .copyright{
     color:#ffffff ;
-    font-size: 0.75rem;
-    padding: 20px 0;
+    font-size: 0.8rem;
+    padding: 15px 20px;
+    margin-top: 4%;
 }
