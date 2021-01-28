@@ -1,2 +1,1 @@
-# portfolio
-Personal Website of Sandeep Singh
+# Personal Website of Sandeep Singh
